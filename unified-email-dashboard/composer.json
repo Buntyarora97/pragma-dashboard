@@ -1,0 +1,28 @@
+{
+    "name": "unified-email-dashboard/app",
+    "description": "Unified Email Dashboard - Manage multiple email accounts from one interface",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unified Email Dashboard",
+            "email": "admin@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.9",
+        "webklex/php-imap": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "includes/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
